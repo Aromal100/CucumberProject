@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="31.446" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Cheak the Ekhool Login functionality" name="Creating a new Group" time="31.185">
+<failure type="org.openqa.selenium.ElementNotInteractableException" message="element not interactable
+  (Session info: chrome=123.0.6312.105)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1386702328db8c88f588df313bfcc568, clickElement {id=f.2391207A1C9330C361623320BE2A018A.d.3B481C69F34C32245EF3AC55DA048A86.e.184}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.105, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\reach\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55809/devtoo..., se:cdpVersion: 123.0.6312.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1386702328db8c88f588df313bfcc568)] -&gt; xpath: //*[@id=&quot;attach-group-users&quot;]/div/div/div[2]/div[3]/div/button[2]]
+Session ID: 1386702328db8c88f588df313bfcc568">
+<![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1386702328db8c88f588df313bfcc568, clickElement {id=f.2391207A1C9330C361623320BE2A018A.d.3B481C69F34C32245EF3AC55DA048A86.e.184}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.105, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\reach\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55809/devtoo..., se:cdpVersion: 123.0.6312.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1386702328db8c88f588df313bfcc568)] -> xpath: //*[@id="attach-group-users"]/div/div/div[2]/div[3]/div/button[2]]
+Session ID: 1386702328db8c88f588df313bfcc568
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at StepDefinition.EkhoolSteps.createANewGroup(EkhoolSteps.java:126)
+	at ✽.create a new group(file:///C:/Users/reach/eclipse-workspace/Cucumber/src/test/resources/Features/Ekhool.feature:39)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User enters into the browser..........................................passed
+And User clicks on the Login button.........................................passed
+Then User give valid username as "reshma@resbee.org"........................passed
+And User clicks the next button.............................................passed
+Then User give the password as "ekhool".....................................passed
+And User clicks the continue button.........................................passed
+And User enters the home page...............................................passed
+Then User then goes to Manage section.......................................passed
+And go to then goes to group section........................................passed
+And create a new group......................................................failed
+Then User closes the browser................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
